@@ -1,0 +1,283 @@
+.first
+{
+    /* background-image: linear-gradient(to right, red, green, yellow); */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(45deg,red, yellow);
+    text-decoration: black underline solid;
+
+}
+.parent
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+
+.second
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 15px;
+    display: block;
+    height: 65px;
+    width: 400px;
+    position: absolute;
+    top: 15px;
+    left: 450px;
+    background: cornflowerblue;
+    border: 4px solid red;
+    border-radius: 30px;
+}
+.parent2
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px solid green;
+    background: aqua;
+}
+.box
+{
+    display: block;
+    height: 80px;
+    width: 430px;
+    background: cornflowerblue;
+    border-radius: 25px;
+    border: 4px solid #4B3869;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.box1
+{
+    display: block;
+    position:absolute ;
+    top: 5px;
+    left: 5px;
+
+}
+
+.box2
+{
+ 
+    display: block;
+    position:absolute ;
+    top: 5px;
+    left: 445px;
+}
+
+.box3
+{
+    display: block;
+    position:absolute ;
+    top: 5px;
+    right:10px;
+}
+
+.box4
+{
+    display: block;
+    position:absolute ;
+    bottom:5px;
+    left: 445px;  
+}
+
+.section3
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(45deg,orange,yellow,red);
+    text-decoration: red underline solid;
+    margin-top: 10px;
+}
+
+.parent3
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: radial-gradient(#A2CDCD,blue,#3D56B2); 
+    margin-top: 10px;
+}
+
+.boxx
+{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    background: yellow;
+    border: 4px solid maroon;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: red underline;
+    font-weight: 700;
+    color: red;
+}
+.boxm1
+{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+
+
+}
+.boxm2
+{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 450px;
+}
+
+.boxm3
+{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 750px;  
+}
+
+.boxm4
+{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 1050px;  
+}
+
+.section4
+{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    background: hotpink;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+
+
+}
+
+.parent4
+{
+display: block;
+position: relative;
+width: 100%;
+height: 260px;
+text-align: center;
+color: white;
+border: 2px solid black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 22px;
+
+}
+
+.para1
+{
+display: block;
+position: absolute;
+height: 60px;
+width: 450px;
+margin-top: 15px;
+background:mediumseagreen;
+padding-top:15px;
+
+}
+
+.para2
+{
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 400px;
+    margin-top: 15px;
+    background: cyan;
+    padding-top:15px;
+    left: 460px;
+     
+}
+
+.para3
+{
+    display: block;
+    position: absolute;
+    height: 70px;
+    width: 370px;
+    margin-top: 15px;
+    background:blue;
+    left: 870px;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.para4
+{
+    display: block;
+    position: absolute;
+    width: 1255px;
+    height: 120px;
+    background: chocolate;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    left: 0px;
+    top: 100px;
+    text-align: left;
+
+}
+
+.para5
+{
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 205px;
+    background: black;
+    right: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    top: 20px;
+
+}
+
+.para6
+{
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    background: cornflowerblue;
+}
